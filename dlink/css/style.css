@@ -1,0 +1,2650 @@
+@font-face{font-family:lato;src:url(../fonts/Lato-Light.eot);src:url(../fonts/Lato-Light.eot) format("embedded-opentype"),url(../fonts/Lato-Light.woff2) format("woff2"),url(../fonts/Lato-Light.woff) format("woff"),url(../fonts/Lato-Light.ttf) format("truetype");font-style:normal;font-weight:300;text-rendering:optimizeLegibility}
+
+@font-face{font-family:lato;src:url(../fonts/Lato-Regular.eot);src:url(../fonts/Lato-Regular.eot) format("embedded-opentype"),url(../fonts/Lato-Regular.woff2) format("woff2"),url(../fonts/Lato-Regular.woff) format("woff"),url(../fonts/Lato-Regular.ttf) format("truetype");font-style:normal;font-weight:400;text-rendering:optimizeLegibility}
+
+@font-face{font-family:lato;src:url(../fonts/Lato-Italic.eot);src:url(../fonts/Lato-Italic.eot) format("embedded-opentype"),url(../fonts/Lato-Italic.woff2) format("woff2"),url(../fonts/Lato-Italic.woff) format("woff"),url(../fonts/Lato-Italic.ttf) format("truetype");font-style:italic;font-weight:400;text-rendering:optimizeLegibility}
+
+@font-face{font-family:lato;src:url(../fonts/Lato-Bold.eot);src:url(../fonts/Lato-Bold.eot) format("embedded-opentype"),url(../fonts/Lato-Bold.woff2) format("woff2"),url(../fonts/Lato-Bold.woff) format("woff"),url(../fonts/Lato-Bold.ttf) format("truetype");font-style:normal;font-weight:700;text-rendering:optimizeLegibility}
+
+@font-face{font-family:icomoon;src:url(../fonts/icomoon.eot);src:url(../fonts/icomoon.eot#iefix) format("embedded-opentype"),url(../fonts/icomoon.woff2) format("woff2"),url(../fonts/icomoon.ttf) format("truetype"),url(../fonts/icomoon.woff) format("woff"),url(../fonts/icomoon.svg) format("svg");font-weight:400;font-style:normal}
+
+
+/*Search form*/
+ul[data-sa-theme="basic-orange"] div {
+    display: inline-block;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-uc_product_image{
+	width: 34%;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-title{
+	width: 65%;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-field_model_number{
+	width: 50%;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-uc_product_image,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-title,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-field_model_number{
+	float: left;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group input[id^='edit-search-block-form'].form-control.form-text.form-autocomplete.ui-autocomplete-processed.ui-autocomplete-input{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	
+}
+form#search-block-form.form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all,
+form#search-block-form.form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all:hover,
+form#search-block-form--2.form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all,
+form#search-block-form--2.form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all:hover{
+	border-radius: 15px;
+}
+
+form#search-block-form.form-search.content-search div div div.input-group ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all li.ui-menu-item a.ui-corner-all.ui-state-focus,
+form#search-block-form--2.form-search.content-search div div div.input-group ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all li.ui-menu-item a.ui-corner-all.ui-state-focus{
+	border: none;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a[id^='ui-id-'].ui-corner-all div div.ui-autocomplete-field-title:hover,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a[id^='ui-id-'].ui-corner-all div div.ui-autocomplete-field-label:hover,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-'] li:hover,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-']:hover,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a[id^='ui-id-'].ui-corner-all div div.ui-autocomplete-field-title,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-'].ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all li a[id^='ui-id-'].ui-corner-all div div.ui-autocomplete-field-label,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-'] li,
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-']{
+	color: #535a5c;
+	font: inherit;	
+	font-size: 1rem;
+}
+
+form[id^='search-block-form'].form-search.content-search div div div.input-group ul[id^='ui-id-']{
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);
+}
+
+form#search-block-form input{
+	border-radius: 15px 0 0 15px;
+	border: none;
+	width: 222px;
+}
+
+form#search-block-form--2 input{
+	border-radius: 15px 0 0 15px;
+	border: none;	
+}
+
+form#search-block-form button.btn.btn-primary,
+form#search-block-form--2 button.btn.btn-primary{
+	border-radius: 0 15px 15px 0;
+	color: #0083a5;
+	background-color: #fff;
+	border: 1px solid #fff;
+	
+}	
+/*End of Search form*/
+
+/*Header Banner*/
+div.simple-hero__image{
+	background-color: none; 
+	background-image: url(/sites/default/files/Bussiness_Handshake_Where_To_Buy.jpg); 
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;	
+}
+
+.simple-hero {
+    height: 368px;
+    position: relative;
+    width: 100%;
+}
+
+.simple-hero__overlay {
+    background: rgba(83,90,92,.5);
+	content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.simple-hero--dark .simple-hero__content{
+    color: #fff;
+}
+
+.simple-hero__content--align-left {
+    text-align: left;
+}
+
+.simple-hero__content {
+    left: 50%;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+	margin: auto;
+	max-width: 1200px;
+	width: 100%;	
+}
+
+.simple-hero__content .heading{
+    margin: 0;
+}
+div.simple-hero__content.simple-hero__content--align-left.simple-hero__content--light h1{
+    font-size: 6.4rem;
+    letter-spacing: -1.3px;
+    line-height: 1;
+	font-weight: 300;
+}
+/*End of Header Banner*/
+/*Breadcrumb*/
+header#page-header div.breadcrumbs{
+	width: 100%;
+    height: 65px;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	
+}
+
+ol.breadcrumb {
+    background: #fff;
+    display: block;
+    position: relative;
+    transform: translate(0,0px);
+    z-index: 500;
+	margin-bottom: 5px;
+	float: left;
+	width: 100%;
+}
+
+ol.breadcrumb li:first-child a::before {
+    content: "\e900";
+	font-family: icomoon;
+	font-style: normal;
+	font-size: 1.8rem;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;	
+	padding-right: 10px;
+}
+
+ol.breadcrumb li {
+    padding: 10px 20px;
+	color: #191f21;
+    display: inline-block;
+    font-size: 1.1rem;
+	padding: 10px 20px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    line-height: 2.18;
+    transition: color .5s cubic-bezier(.215,.61,.355,1);
+	position: relative;
+}
+
+ol.breadcrumb li::before {
+     transform: translate(0,-50%) rotate(42deg);
+    top: calc(50% - 3px);
+}
+
+ol.breadcrumb li::after {
+	transform: translate(0,-50%) rotate(-42deg);
+	top: calc(50% + 3px);
+}
+
+ol.breadcrumb li::after ,
+ol.breadcrumb li::before {
+    background: #d1d1d1;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: -10px;
+    transition: transform .25s cubic-bezier(.215,.61,.355,1);
+    width: 9px;
+}
+
+ol.breadcrumb li:last-child::after ,
+ol.breadcrumb li:last-child::before {
+  content: none;
+}
+
+ul.jumplinks__list {
+    text-align: right;
+    position: relative;
+	list-style-type: none;
+}
+
+li.jumplinks__item{
+    padding-left: 0;
+    margin: 0 20px 0 0;
+    border: 0;
+    display: inline-block;
+    width: auto;
+	position: relative;
+}
+
+
+li.jumplinks__item a{
+    background: #fff;
+    border-radius: 100px;
+    color: #0083a5;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+
+li.jumplinks__item.jumplinks__item--active a{
+    background: #0083a5;
+    border-radius: 100px;
+    color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+
+/*End of breadcrumb*/
+
+
+/*Article Listing Page*/
+	/*Filter form carousel*/	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible div.slick-list.draggable,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible div.slick-list.draggable{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow::before,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow::before{
+		content: "\e907";
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow::before,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow::before{
+		content: "\e906";
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow::before,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow::before,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow::before,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow::before{
+		/*color: #0083a5;*/
+		color: #cdcccb;
+		font-size: 25px;
+		font-family: icomoon;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 1;
+		text-transform: none;		
+	}
+
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow:hover::before,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow:hover::before,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow:hover::before,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow:hover::before{
+		color: #0083a5;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev, 
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev, 
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next{
+		/*border: 1px solid #0083a5;*/
+		border: 1px solid #cdcccb;
+		border-radius: 19px;
+		width: 35px;
+		height: 35px;
+		z-index: 100;
+		background: #fff;
+	}
+
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow.slick-disabled,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow.slick-disabled,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow.slick-disabled,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow.slick-disabled{
+		display: none !important;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev:hover, 
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next:hover,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev:hover, 
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next:hover{
+		border: 1px solid #0083a5;
+	}
+	/*End filter form carousel*/
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div.views-exposed-widget.views-widget-filter-field_categories_tid.slick-slide.slick-cloned,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-categories-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-wireless-standards-tid-wrapper  ,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-powerline-technology-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-compatible-app-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-3rd-party-integration-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-options-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-power-budget-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-form-factor-tid-wrapper,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-type-of-device-tid-wrapper{
+		margin: 15px 10px 15px;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div.slick-list.draggable div.slick-track div.views-exposed-widget.views-widget-filter-field_categories_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-categories-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-wireless-standards-tid-wrapper.views-exposed-widget.views-widget-filter-field_wireless_standards_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_advanced_features_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-tid-wrapper.views-exposed-widget.views-widget-filter-field_indoor_outdoor_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-powerline-technology-tid-wrapper.views-exposed-widget.views-widget-filter-field_powerline_technology_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-compatible-app-tid-wrapper.views-exposed-widget.views-widget-filter-field_compatible_app_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-3rd-party-integration-tid-wrapper.views-exposed-widget.views-widget-filter-field_3rd_party_integration_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid label,	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_main_type_of_ports_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-options-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-power-budget-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_power_budget_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-form-factor-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_tid label,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-type-of-device-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_device_tid label{		
+		font: 14px verdana,Geneva,sans-serif,sans-serif;
+		color: #0083a5;	
+	}
+	
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div#filter_form_collapsible.views-exposed-widgets.clearfix.collapse.in.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.views-exposed-widget.views-widget-filter-field_categories_tid.slick-slide.slick-cloned div.views-widget div.form-item.form-item-field-categories-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-categories-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_tid div.views-widget div.form-item.form-item-field-categories-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-wireless-standards-tid-wrapper.views-exposed-widget.views-widget-filter-field_wireless_standards_tid div.views-widget div.form-item.form-item-field-wireless-standards-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-advanced-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_advanced_features_tid div.views-widget div.form-item.form-item-field-advanced-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-powerline-technology-tid-wrapper.views-exposed-widget.views-widget-filter-field_powerline_technology_tid div.views-widget div.form-item.form-item-field-powerline-technology-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-indoor-outdoor-tid-wrapper.views-exposed-widget.views-widget-filter-field_indoor_outdoor_tid div.views-widget div.form-item.form-item-field-indoor-outdoor-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid div.views-widget div.form-item.form-item-field-resolution-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid div.views-widget div.form-item.form-item-field-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-compatible-app-tid-wrapper.views-exposed-widget.views-widget-filter-field_compatible_app_tid div.views-widget div.form-item.form-item-field-compatible-app-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-3rd-party-integration-tid-wrapper.views-exposed-widget.views-widget-filter-field_3rd_party_integration_tid div.views-widget div.form-item.form-item-field-3rd-party-integration-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid div.views-widget div.form-item.form-item-field-resolution-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid div.views-widget div.form-item.form-item-field-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-number-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_tid div.views-widget div.form-item.form-item-field-number-of-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-main-type-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_main_type_of_ports_tid div.views-widget div.form-item.form-item-field-main-type-of-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-poe-options-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_tid div.views-widget div.form-item.form-item-field-poe-options-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-number-of-poe-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_tid div.views-widget div.form-item.form-item-field-number-of-poe-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-poe-power-budget-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_power_budget_tid div.views-widget div.form-item.form-item-field-poe-power-budget-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-form-factor-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_tid div.views-widget div.form-item.form-item-field-form-factor-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-home-products-page']  div div.views-exposed-form div div#edit-field-type-of-device-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_device_tid div.views-widget div.form-item.form-item-field-type-of-device-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed{
+		height: auto;
+		border: none;
+		-webkit-box-shadow: none;
+	}
+	
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible.views-exposed-widgets.clearfix.collapse.in.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.views-exposed-widget.views-widget-filter-field_categories_tid.slick-slide.slick-cloned div.views-widget div.form-item.form-item-field-categories-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-categories-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_tid div.views-widget div.form-item.form-item-field-categories-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-wireless-standards-tid-wrapper.views-exposed-widget.views-widget-filter-field_wireless_standards_tid div.views-widget div.form-item.form-item-field-wireless-standards-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group, 
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_advanced_features_tid div.views-widget div.form-item.form-item-field-advanced-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-tid-wrapper.views-exposed-widget.views-widget-filter-field_indoor_outdoor_tid div.views-widget div.form-item.form-item-field-indoor-outdoor-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-powerline-technology-tid-wrapper.views-exposed-widget.views-widget-filter-field_powerline_technology_tid div.views-widget div.form-item.form-item-field-powerline-technology-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid div.views-widget div.form-item.form-item-field-resolution-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid div.views-widget div.form-item.form-item-field-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-compatible-app-tid-wrapper.views-exposed-widget.views-widget-filter-field_compatible_app_tid div.views-widget div.form-item.form-item-field-compatible-app-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-3rd-party-integration-tid-wrapper.views-exposed-widget.views-widget-filter-field_3rd_party_integration_tid div.views-widget div.form-item.form-item-field-3rd-party-integration-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid div.views-widget div.form-item.form-item-field-resolution-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed  div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid div.views-widget div.form-item.form-item-field-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_tid div.views-widget div.form-item.form-item-field-number-of-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group ,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_main_type_of_ports_tid div.views-widget div.form-item.form-item-field-main-type-of-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group ,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-options-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_tid div.views-widget div.form-item.form-item-field-poe-options-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group ,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_tid div.views-widget div.form-item.form-item-field-number-of-poe-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group ,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-power-budget-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_power_budget_tid div.views-widget div.form-item.form-item-field-poe-power-budget-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group ,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-form-factor-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_tid div.views-widget div.form-item.form-item-field-form-factor-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-type-of-device-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_device_tid div.views-widget div.form-item.form-item-field-type-of-device-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group {
+		margin: auto;
+		padding: 5px;
+	}
+	
+	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-categories-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_tid div.views-widget div.form-item.form-item-field-categories-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-wireless-standards-tid-wrapper.views-exposed-widget.views-widget-filter-field_wireless_standards_tid div.views-widget div.form-item.form-item-field-wireless-standards-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_advanced_features_tid div.views-widget div.form-item.form-item-field-advanced-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-tid-wrapper.views-exposed-widget.views-widget-filter-field_indoor_outdoor_tid div.views-widget div.form-item.form-item-field-indoor-outdoor-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-powerline-technology-tid-wrapper.views-exposed-widget.views-widget-filter-field_powerline_technology_tid div.views-widget div.form-item.form-item-field-powerline-technology-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid div.views-widget div.form-item.form-item-field-resolution-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid div.views-widget div.form-item.form-item-field-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-compatible-app-tid-wrapper.views-exposed-widget.views-widget-filter-field_compatible_app_tid div.views-widget div.form-item.form-item-field-compatible-app-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-3rd-party-integration-tid-wrapper.views-exposed-widget.views-widget-filter-field_3rd_party_integration_tid div.views-widget div.form-item.form-item-field-3rd-party-integration-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-connectivity-tid-wrapper.views-exposed-widget.views-widget-filter-field_connectivity_tid div.views-widget div.form-item.form-item-field-connectivity-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-resolution-tid-wrapper.views-exposed-widget.views-widget-filter-field_resolution_tid div.views-widget div.form-item.form-item-field-resolution-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed  div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_features_tid div.views-widget div.form-item.form-item-field-features-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_tid div.views-widget div.form-item.form-item-field-number-of-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_main_type_of_ports_tid div.views-widget div.form-item.form-item-field-main-type-of-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-options-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_tid div.views-widget div.form-item.form-item-field-poe-options-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_tid div.views-widget div.form-item.form-item-field-number-of-poe-ports-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-poe-power-budget-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_power_budget_tid div.views-widget div.form-item.form-item-field-poe-power-budget-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-form-factor-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_tid div.views-widget div.form-item.form-item-field-form-factor-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option,
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div div#edit-field-type-of-device-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_device_tid div.views-widget div.form-item.form-item-field-type-of-device-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group label.option{
+		font: 12px verdana,Geneva,sans-serif,sans-serif;
+	}
+
+
+/*Formatting views filters for business*/	
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div.views-widget-filter-field_categories_b_tid,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-categories-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-layer-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-type-of-uplink-ports-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-powered-by-poe-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-poe-options-b-tid-1-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-form-factor-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connectivity-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-resolution-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-lowlight-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-features-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-compatible-with-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connector-type-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-length-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-wireless-standard-b-tid-wrapper,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-b-tid-wrapper{
+		margin: 15px 10px 15px;
+	}
+	
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div.views-widget-filter-field_categories_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-categories-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-layer-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_layer_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-type-of-uplink-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_uplink_ports_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-powered-by-poe-tid-wrapper.views-exposed-widget.views-widget-filter-field_powered_by_poe__tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-poe-options-b-tid-1-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid_1 label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_b_tid label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-form-factor-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid label,	
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connectivity-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-resolution-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-lowlight-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-features-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-compatible-with-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connector-type-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-length-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-wireless-standard-b-tid-wrapper > label,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-b-tid-wrapper > label	
+	{
+		font: 14px verdana,Geneva,sans-serif,sans-serif;
+		color: #0083a5;	
+	}
+		
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div.views-widget-filter-field_categories_b_tid div.views-widget div.form-item.form-item-field-categories-b-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-categories-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-layer-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_layer_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-type-of-uplink-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_uplink_ports_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-powered-by-poe-tid-wrapper.views-exposed-widget.views-widget-filter-field_powered_by_poe__tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-poe-options-b-tid-1-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid_1 > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-form-factor-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connectivity-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-resolution-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-lowlight-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-features-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-compatible-with-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connector-type-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-length-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-wireless-standard-b-tid-wrapper > div.views-widget > div.form-item > div,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-b-tid-wrapper > div.views-widget > div.form-item > div
+	{
+		height: auto;
+		border: none;
+		-webkit-box-shadow: none;
+	}
+
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div.views-exposed-widget.views-widget-filter-field_categories_b_tid.slick-slide.slick-cloned div.views-widget div.form-item.form-item-field-categories-b-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed div.bef-checkboxes div.form-item.form-type-bef-checkbox.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-categories-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-layer-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_layer_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-type-of-uplink-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_uplink_ports_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-powered-by-poe-tid-wrapper.views-exposed-widget.views-widget-filter-field_powered_by_poe__tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-poe-options-b-tid-1-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid_1 div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-form-factor-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connectivity-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-resolution-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-lowlight-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-features-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-compatible-with-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connector-type-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-length-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-wireless-standard-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-b-tid-wrapper div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group	{
+		margin: auto;
+		padding: 5px;
+	}
+
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-categories-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-layer-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_layer_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-main-type-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-type-of-uplink-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_type_of_uplink_ports_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-powered-by-poe-tid-wrapper.views-exposed-widget.views-widget-filter-field_powered_by_poe__tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-poe-options-b-tid-1-wrapper.views-exposed-widget.views-widget-filter-field_poe_options_b_tid_1 div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-poe-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_poe_ports_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-form-factor-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-indoor-outdoor-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connectivity-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-resolution-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-lowlight-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-features-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-compatible-with-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-connector-type-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-length-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_form_factor_b_tid div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-wireless-standard-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_wireless_standard_b_tid.slick-slide div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-advanced-features-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_advanced_features_b_tid.slick-slide div.views-widget div.form-item.form-group div.form-control div div.form-item.form-group label.option{
+		font: 12px verdana,Geneva,sans-serif,sans-serif;
+	}	
+	
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-categories-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_b_tid div.views-widget div.form-item.form-item-field-categories-b-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div div#edit-field-number-of-ports-b-tid-wrapper.views-exposed-widget.views-widget-filter-field_number_of_ports_b_tid div.views-widget div.form-item.form-item-field-number-of-ports-b-tid.form-type-select.form-group div.form-control.form-checkboxes.bef-select-as-checkboxes.bef-required-filter-processed{
+		height: auto;
+		border: none;
+		-webkit-box-shadow: none;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input,
+	form[id^='views-exposed-form-business-products-page'] div.bef-checkboxes input{
+		display: none;
+	}
+	
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input[type="checkbox"] + label,
+	form[id^='views-exposed-form-business-products-page'] div.bef-checkboxes input[type="checkbox"] + label{
+		display: block;
+		position: relative;
+		padding-left: 35px;
+		margin-bottom: 20px;
+		font: 14px/20px 'Open Sans', Arial, sans-serif;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input[type="checkbox"]:not(:checked) + label,
+	form[id^='views-exposed-form-business-products-page']	div.bef-checkboxes input[type="checkbox"]:not(:checked) + label{
+		color: #7b7e80 !important;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input[type="checkbox"]:checked + label,
+	form[id^='views-exposed-form-business-products-page'] div.bef-checkboxes input[type="checkbox"]:checked + label{
+		color: #0083a5 !important;;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input[type="checkbox"] + label:last-child,
+	form[id^='views-exposed-form-business-products-page'] div.bef-checkboxes input[type="checkbox"] + label:last-child	{ margin-bottom: 0; }
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input[type="checkbox"] + label:before,
+	form[id^='views-exposed-form-business-products-page'] div.bef-checkboxes input[type="checkbox"] + label:before	{
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #7b7e80;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .6;
+	-webkit-transition: all .12s, border-color .08s;
+	transition: all .12s, border-color .08s;
+	border-radius: 3px;
+	}
+	
+	form[id^='views-exposed-form-home-products-page'] div.bef-checkboxes input[type="checkbox"]:checked + label:before,
+	form[id^='views-exposed-form-business-products-page'] div.bef-checkboxes input[type="checkbox"]:checked + label:before	{
+	width: 10px;
+	height: 18px;
+	top: -5px;
+	left: 5px;
+	border-radius: 0;
+	opacity: 1;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-bottom-color: #0083a5;
+	border-right-color: #0083a5;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	}
+	
+	
+	
+	
+	/***********************************************/
+.compare-bar__list-link:hover, 
+.compare-bar__grid-link:hover{
+    background: #0083a5;
+    color: #fff;
+}
+
+div#manage_filter_form_collapsible {
+    display: block;
+    width: 100%;
+	text-align: right;
+}
+
+.compare-bar__list-item--no-margin {
+    margin-left: 0;
+}
+.compare-bar__list-item {
+    display: inline-block;
+    float: left;
+}
+
+.compare-bar__list-item a {
+    text-decoration: none;
+}
+
+
+.compare-bar__list-link::before {
+    content: "\e903";
+	font-size: 1.3rem;
+	font-family: icomoon;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;	
+
+}
+
+
+
+.compare-bar__list::before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.compare-bar__list-item {
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+
+.compare-bar__list-item a {
+    text-decoration: none;
+}
+.compare-bar__list-link,
+.compare-bar__grid-link {
+    border-radius: 0 3px 3px 0;
+    color: #535a5c;
+    /*border-radius: 3px 0 0 3px;*/
+    margin-right: -1px;
+	margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 10px;
+    transition: background-color .25s cubic-bezier(.215,.61,.355,1);	
+}
+
+.compare-bar__grid-link--active{
+    background: #0083a5;
+    color: #fff;
+}
+
+.compare-bar__grid-link::before{
+    font-size: 1.3rem;
+	content: "\e925";
+	font-family: icomoon;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;	
+}
+
+
+/*Deactivated temporarily by Baher*/
+.compare-bar__grid-link span,
+.compare-bar__list-link span,
+.views-exposed-widget .views-reset-button,
+button#edit-reset.btn.btn-default.form-submit{
+    display: none;
+}
+
+
+div.views-exposed-form div.views-exposed-widget.views-reset-button button#edit-reset-trigger.btn.btn-default.form-submit:before {
+    content: "\e953";
+	margin-right: 10px;
+	font-family: icomoon;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;
+}
+
+div.views-exposed-form div.views-exposed-widget.views-close-filter-button button#close_btn.btn.btn-default.form-submit:before {
+    content: "\e951";
+	margin-right: 10px;
+	font-family: icomoon;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: none;
+}
+
+
+div.views-exposed-form div.views-exposed-widget.views-reset-button button#edit-reset-trigger.btn.btn-default.form-submit,
+div.views-exposed-form div.views-exposed-widget.views-close-filter-button button#close_btn.btn.btn-default.form-submit {
+    color: #7b7e80;
+    font-size: 1.2rem;	
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+div.views-exposed-widget.filter-by{
+	padding-top: 31px;
+	font-size: 1.6rem;
+}
+
+div#filter_form_collapsible.views-exposed-widgets.clearfix.collapse.in div.views-exposed-widget.views-reset-button{
+	display: none;
+	color: #fff;
+	border: none;
+}
+
+div.view-home-products div.view-content div#views-bootstrap-grid-1 div.row div div.views-field,
+div.view-business-products div.view-content div#views-bootstrap-grid-1 div.row div div.views-field{
+	margin-top: 40px;
+}
+
+div.view-home-products #views-bootstrap-grid-1 > div.row,
+div.view-business-products #views-bootstrap-grid-1 > div.row{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+div.view-home-products #views-bootstrap-grid-1 > div.row > div,
+div.view-business-products #views-bootstrap-grid-1 > div.row > div {
+	padding: 20px 20px 40px;
+}
+
+
+div.view-home-products #views-bootstrap-grid-1 > div.row > div,
+div.view-business-products #views-bootstrap-grid-1 > div.row > div{
+	border : 1px solid #eaeaea;
+}
+
+
+div.view-home-products #views-bootstrap-grid-1 > div.row > div:hover,
+div.view-business-products #views-bootstrap-grid-1 > div.row > div:hover{
+	border : 1px solid #0083a5;
+}
+
+
+div.view-home-products div#views-bootstrap-grid-1 > div.row div div.views-field.views-field-uc-product-image div.field-content,
+div.view-business-products div#views-bootstrap-grid-1 > div.row div.views-field.views-field-uc-product-image div.field-content{
+    display: inline-block;
+    height: auto;
+    margin: 20px;
+    max-width: 100%;
+    position: relative;
+}
+
+div.view-home-products div#views-bootstrap-grid-1 > div.row div.product-item__image-container a div.product-item__image img,
+div.view-business-products div#views-bootstrap-grid-1 > div.row div.product-item__image-container a div.product-item__image img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    max-height: 170px;
+}
+
+.product-item__image-container a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+.product-item__image {
+    display: block;
+    height: 187px;
+    margin: auto;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.product-item__details-container a {
+    text-decoration: none;
+}
+
+div.view.view-home-products div#views-bootstrap-grid-1 div.row div a div.product-item__name:hover,
+div.view.view-home-products div#views-bootstrap-grid-1 div.row div:hover a div.product-item__name,
+div.view-business-products div#views-bootstrap-grid-1 div.row div a div.product-item__name:hover,
+div.view-business-products div#views-bootstrap-grid-1 div.row div:hover a div.product-item__name{
+	color: #0083a5;
+}
+
+div.view-home-products #views-bootstrap-grid-1 > div.row > div:hover .product-item__details-container a,
+div.view-business-products #views-bootstrap-grid-1 > div.row > div:hover .product-item__details-container a{
+    text-decoration: none;
+}
+
+.product-item__details-container a:hover {
+    text-decoration: none;
+}
+
+.product-item__name {
+    color: #191f21;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+	text-align: center;
+}
+
+.product-item__name:nth-child(1) {
+    margin-top: 20px;
+}
+
+.product-item__name:nth-child(2) {
+    margin-top: 10px;
+}	
+	
+body.page-for-home.page-for-home-routers-and-modems-listing- a div.product-item__name{
+	text-align: left;
+}
+
+body.page-for-home.page-for-home-routers-and-modems a div.product-item__name{
+	text-align: center;
+}
+.product-item__number {
+    color: #191f21;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 25px 0px 20px 0px;
+	text-align: center;
+}
+
+.product-item__description {
+    color: #7b7e80;
+    display: block;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+div.view-home-products #views-bootstrap-grid-1 div.row a div.product-item__description ul,
+div.view-business-products #views-bootstrap-grid-1 div.row a div.product-item__description ul{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+/*form[id^='views-exposed-form-home-products-page'] div#edit-field-categories-tid-wrapper.views-exposed-widget.views-widget-filter-field_categories_tid div.views-widget div.form-item.form-item-field-categories-tid.form-type-select.form-group select#edit-field-categories-tid option,
+form[id^='views-exposed-form-home-products-page'] div#edit-field-wireless-standards-tid-wrapper.views-exposed-widget.views-widget-filter-field_wireless_standards_tid div.views-widget div.form-item.form-item-field-wireless-standards-tid.form-type-select.form-group select#edit-field-wireless-standards-tid option,
+form[id^='views-exposed-form-home-products-page'] div#edit-field-advanced-features-tid-wrapper.views-exposed-widget.views-widget-filter-field_advanced_features_tid div.views-widget div.form-item.form-item-field-advanced-features-tid.form-type-select.form-group select#edit-field-advanced-features-tid option {
+    font-size: 1.2rem;
+    line-height: 1.5;
+	color: #7b7e80;
+}*/
+
+/*Deactivated temporarily by Baher for the css.
+form[id^='views-exposed-form-home-products-page'] div.form-item.form-item-field-categories-tid.form-type-select.form-group,
+form[id^='views-exposed-form-home-products-page'] div.form-item.form-item-field-wireless-standards-tid.form-type-select.form-group,  
+form[id^='views-exposed-form-home-products-page'] div.form-item.form-item-field-advanced-features-tid.form-type-select.form-group {
+	display:inline-block; vertical-align:top; overflow:hidden; border:none; 
+}
+
+form[id^='views-exposed-form-home-products-page'] div.form-item.form-item-field-categories-tid.form-type-select.form-group select#edit-field-categories-tid,
+form[id^='views-exposed-form-home-products-page'] div.form-item.form-item-field-wireless-standards-tid.form-type-select.form-group select#edit-field-wireless-standards-tid,
+form[id^='views-exposed-form-home-products-page'] div.form-item.form-item-field-advanced-features-tid.form-type-select.form-group select#edit-field-advanced-features-tid
+{ 
+	padding:10px; margin:-5px -20px -5px 17px; border: none;
+}
+*/
+
+/*End of Article Listing Page*/
+
+
+/*Footer block*/
+#block-block-2{
+	color: #0083a5;
+	background: #fff;	
+	padding: 12px 0;
+	font-size: 2.6rem;
+}
+
+#block-block-2 > ul > li > a {
+	margin: 0 20px 0 0;
+}
+
+
+
+#block-menu-menu-primary-footer{
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 10px 0;
+	
+}
+
+#block-menu-menu-secondary-menu{
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 0px;
+	
+}
+
+#block-block-1{
+	margin-left: 70px;
+	margin-right: 70px;	
+	padding: 0px ;
+}
+
+
+#block-menu-menu-primary-footer > ul > li > a {
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+#block-menu-menu-secondary-menu > ul > li > a {
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+#block-menu-menu-primary-footer > ul > li.first,
+#block-menu-menu-secondary-menu > ul > li.first,
+#block-menu-menu-primary-footer > ul > li.first > a,
+#block-menu-menu-secondary-menu > ul > li.first > a{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#block-menu-menu-secondary-menu > ul > li ,
+#block-menu-menu-primary-footer > ul > li {
+	display: inline-block;
+}
+
+#block-block-1,
+#block-menu-menu-secondary-menu > ul > li > a,
+#block-menu-menu-secondary-menu > ul > li > a:hover{
+	color: rgba(255,255,255,.5);
+	background: #0083a5;
+	
+}
+#block-menu-menu-primary-footer > ul > li > a,
+#block-menu-menu-primary-footer > ul > li > a:hover{
+	color: #fff;
+	background: #0083a5;
+}
+
+#block-block-2 > ul{
+	list-style: none;
+}
+
+#block-block-2 > ul > li{
+	display: inline-block;
+}
+
+#block-block-2 > ul{
+	margin-left: 30px;
+}
+
+
+footer.footer
+{
+    background: #0083a5;
+    zoom: 1;	
+	display: inline-block;
+	width: 100%;
+	margin-top: 0px;
+	padding-top: 0;
+}
+
+
+body.front footer.footer{
+	padding-top: 0px;	
+}
+
+/*End of Footer block*/
+
+/*Featured Views*/
+
+div.view-featured #views-bootstrap-grid-1 > div.row {
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+
+
+/*#block-views-featured-block{
+	padding-top: 50px;
+}*/
+
+div.view-featured #views-bootstrap-grid-1 > div.row > div{
+	padding-right: 0px;
+	padding-left: 0px;	
+	background-size:cover;
+	padding-top: 228px;
+	
+}
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-title{
+    position: absolute;
+	z-index: 500;
+    top: 0px;
+    padding-left: 33px;
+    padding-right: 60px;
+}
+
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-field-catch-line{
+    position: absolute;
+	z-index: 500;
+    top: 105px;
+    padding-left: 33px;
+    padding-right: 60px;
+	color: #fff;
+	font-size: 14px verdana,Geneva,sans-serif,sans-serif;		
+}
+
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-field-link{
+    position: absolute;
+	z-index: 500;
+    top: 153px;
+    padding-left: 33px;
+    padding-right: 60px;
+}
+
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-field-link > div > a{
+	-ms-flex-align: center;
+	align-items: center;	
+	border-radius: 100px;
+	border: 1px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	/* display: inline-block; */
+	/* display: -ms-inline-flexbox; */
+	display: inline-flex;
+	font-size: 1.4rem;
+	letter-spacing: -.3px;
+	line-height: 1.5;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .25s cubic-bezier(.215,.61,.355,1);	
+}
+	
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-field-link > div > a::after{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin: 0 -5px 0 15px;
+    transition: background-color .25s cubic-bezier(.215,.61,.355,1);
+    display: inline-block;
+    font-size: 2.5rem;
+    content: "\e908";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: icomoon;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+}
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-field-link > div > a:hover::after{	
+	background-color: #0083a5;
+}
+	
+div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-field-featured-image{
+    position: relative;
+    top: 0px;
+
+}
+	
+/*End of Featured Views*/	
+
+/*Formatting the sliders*/
+/*Mask the official view image*/
+#views-bootstrap-carousel-1 > div > div > img{
+	display: none;
+	
+}
+
+/*Format the slider*/
+#views-bootstrap-carousel-1 > div > div{
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+}
+
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-dlink_slides.view-display-id-block div.view-content div#views-bootstrap-carousel-1.views-bootstrap-carousel-plugin-style.carousel.slide ol.carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #cdcccb;
+}
+
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-dlink_slides.view-display-id-block div.view-content div#views-bootstrap-carousel-1.views-bootstrap-carousel-plugin-style.carousel.slide ol.carousel-indicators li.active{
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #0083a5;
+}
+
+
+html{font-size:62.5%;margin:0 !important;padding:0 !important;-webkit-text-size-adjust:100%}
+
+body{
+    background: #eaeaea;
+    font: 14px verdana,Geneva,sans-serif,sans-serif;
+}
+
+body > div.main-container{
+	background: #fff;
+	position: relative;
+	margin-bottom: 1px;
+	width: 100% !important;
+	z-index: 10;
+}
+
+body.node-type-home-products > div.main-container,
+body.node-type-business-products > div.main-container{
+	z-index: auto;
+}
+body > div.main-container.col-lg-12.col-md-12.container > div{
+	padding-top: 100px;
+}
+
+body.page-for-home > div.main-container.col-lg-12.col-md-12.container > div.row,
+body.page-for-business > div.main-container.col-lg-12.col-md-12.container > div.row{
+	padding-top: 50px;
+}
+
+body.front > div.main-container.col-lg-12.col-md-12.container > div{
+	padding-top: 0;
+}
+
+body.admin-menu.navbar-is-fixed-top,
+body.navbar-is-fixed-top,
+body.admin-menu{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+	
+}
+
+	
+/*
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-dlink_slides.view-display-id-block div.view-content div#views-bootstrap-carousel-1.views-bootstrap-carousel-plugin-style.carousel.slide div.carousel-inner div.item div.carousel-caption h3{
+	display: none;
+}
+
+*/
+#views-bootstrap-carousel-1 > div.carousel-inner{
+	/*height: 429px;*/
+	height: 490px;
+}
+.hero__content .button{
+	display: inline-flex;
+}
+
+div.hero__content.hero__content--align-left.hero__content--light a{
+	background-color: none;
+}
+
+div.hero__content.hero__content--align-left.hero__content--light a.colf57f23{
+	background-color: #f57f23;
+}
+
+
+div.hero__content.hero__content--align-left.hero__content--light a.colf57f23:hover {
+    background-color: #ee700e;
+}
+
+div.hero__content.hero__content--align-left.hero__content--light a.col0083a5{
+	background-color: #0083a5;
+}
+
+div.hero__content.hero__content--align-left.hero__content--light a.col0083a5:hover {
+	background-color: #007396;
+}
+
+
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-dlink_slides.view-display-id-block div.view-content div#views-bootstrap-carousel-1.views-bootstrap-carousel-plugin-style.carousel.slide div.carousel-inner div.item.active div.carousel-caption div.hero__content.hero__content--align-left.hero__content--light a.button::after,
+div.module div.rte a.button.button--cta::after{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin: 0 -5px 0 15px;
+    transition: background-color .25s cubic-bezier(.215,.61,.355,1);
+    display: inline-block;
+    font-size: 2.5rem;
+    content: "\e908";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: icomoon;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+}
+
+
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-dlink_slides.view-display-id-block div.view-content div#views-bootstrap-carousel-1.views-bootstrap-carousel-plugin-style.carousel.slide div.carousel-inner div.item.active div.carousel-caption div.hero__content.hero__content--align-left.hero__content--light a {
+	-ms-flex-align: center;
+	align-items: center;	
+	border-radius: 100px;
+	border: 1px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	/* display: inline-block; */
+	/* display: -ms-inline-flexbox; */
+	display: inline-flex;
+	font-size: 1.4rem;
+	letter-spacing: -.3px;
+	line-height: 1.5;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .25s cubic-bezier(.215,.61,.355,1);
+}
+
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-dlink_slides.view-display-id-block div.view-content div#views-bootstrap-carousel-1.views-bootstrap-carousel-plugin-style.carousel.slide div.carousel-inner div div.carousel-caption{
+	left: 8%;
+	top: 17%;
+}
+.hero__container,
+section#block-views-dlink-slides-block.block.block-views.clearfix div.view.view-dlink-slides.view-id-baher_slides.view-display-id-block{
+	margin: auto;
+	max-width: 1200px;
+	padding: 0;
+	width: 100%;
+}
+
+.hero__content--light{color:#8a8a8a}
+.section-title .heading--primary,.section-title .rte h1,.rte .section-title h1{color:#191f21;display:inline-block;margin:0}
+.section--black .section-title .heading--primary,.section--black .section-title .rte h1,.rte .section--black .section-title h1,.section--midnightblue .section-title .heading--primary,.section--midnightblue .section-title .rte h1,.rte .section--midnightblue .section-title h1,.section--dark .section-title .heading--primary,.section--dark .section-title .rte h1,.rte .section--dark .section-title h1,.section--primary .section-title .heading--primary,.section--primary .section-title .rte h1,.rte .section--primary .section-title h1{color:#fff}
+.sub-heading{font-family:"Verdana",Geneva,sans-serif;font-size:1.6rem;font-weight:400;letter-spacing:-0.3px;line-height:1.5}
+.sub-heading{font-size:1.8rem;letter-spacing:-0.4px;line-height:1.33}
+.callout__content .sub-heading{color:#0083A5}
+.campaign-hero__content .sub-heading{display:none;font-weight:400}
+.hero__content .sub-heading{font-weight:400}
+.sub-heading--intro{font-size:1.7rem;letter-spacing:-0.3px;line-height:1.41}
+.partner-portal .sub-heading--intro{color:#59758b !important;font-family:"Lato",sans-serif;font-size:1.7rem;font-weight:300}
+.hero__container,.hero__content{margin:auto;max-width:1200px;padding:0;width:100%}
+.hero__container{-ms-flex-line-pack:center;align-content:center;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;height:auto;-ms-flex-pack:start;justify-content:flex-start;min-height:70vh;zoom:1}
+.hero__container:after{content:"\0020";display:block;height:0;overflow:hidden}
+.hero__content--align-left{text-align:left}
+.heading--quaternary{font-family:"Lato",sans-serif;font-size:1.2rem;font-weight:300;letter-spacing:1px;line-height:1.33;text-transform:uppercase}
+	.hero__content .heading--quaternary{display:block;letter-spacing:.01rem;font-size: 2rem;font-weight: 700;margin:0 0 20px}
+	.heading--primary{font-family:"Lato",sans-serif;font-size:3.8rem;font-weight:300;letter-spacing:-0.8px;line-height:1.11}
+
+
+/*.heading--primary span{display:block;font-size:2rem;font-weight:bold;letter-spacing:1.8px;line-height:2.45;text-transform:uppercase}*/
+.heading--primary.heading--highlight{font-weight:400}
+
+	
+	.partner-portal .sub-heading--intro{font-size:1.7rem !important}
+	.sub-heading--intro{font-size:1.58rem;letter-spacing:-0.4px;line-height:1.6}
+
+	
+@media screen and (max-width: 767px) {
+  .dropdown-menu > li {
+    display: block;
+  }
+}
+	
+@media screen and (min-width: 768px) {	
+	.compare-bar__list {
+		display: inline-block;
+		position: relative;
+		z-index: 5;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-title > h3{
+		color: #fff;
+		font-size: 3.4rem;
+		letter-spacing: -.7px;
+		line-height: 1.14;
+		font-family: lato,sans-serif;
+		font-weight: 300;	
+	}	
+	.heading--primary{font-size:5rem;letter-spacing:-1.3px;line-height:1}
+	header#page-header nav#jumplinks.jumplinks{
+		border: 0;
+		float: right;
+		display: block;
+		transform: translate(0,0px);
+		z-index: 500;
+		margin-bottom: 5px;
+		background-color: #fff;
+		height: 61px;
+		padding: 10px 20px;
+		position: absolute;
+		right: 10px;
+	}
+
+	.hero__container{height:550px;position:relative}		
+	.heading--quaternary{font-size:1.5rem;letter-spacing:1.8px;line-height:1}
+	/*4 boxes in home page*/
+	div.view-featured #views-bootstrap-grid-1 > div.row > div:nth-child(2),
+	div.view-featured #views-bootstrap-grid-1 > div.row > div:nth-child(3){
+		border: 1px solid #fff;
+	}
+	
+	div.view-featured #views-bootstrap-grid-1 > div.row > div:nth-child(1){
+		border-top-color: rgb(255, 255, 255);
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-right-color: rgb(255, 255, 255);
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-bottom-color: rgb(255, 255, 255);
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-image-outset: 0;
+		border-image-repeat: stretch;
+		border-image-slice: 100%;
+		border-image-source: none;
+		border-image-width: 1;
+	}
+	
+	div.view-featured #views-bootstrap-grid-1 > div.row > div:nth-child(4){
+		border-top-color: rgb(255, 255, 255);
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-color: rgb(255, 255, 255);
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-left-color: rgb(255, 255, 255);
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-image-outset: 0;
+		border-image-repeat: stretch;
+		border-image-slice: 100%;
+		border-image-source: none;
+		border-image-width: 1;
+	}	
+	/*Search form*/
+	.navbar #block-search-form{
+		margin: 5px 0 5px 0px;
+	}
+	
+	nav div.region.region-navigation{
+		display: inline-block;
+		float: right;
+	}
+	
+	nav ul.menu.nav.navbar-nav.secondary{
+		float: left;
+	}
+	
+	
+	
+	#navbar-collapse > nav > ul:nth-child(1) > li:nth-child(2) > a,
+	#navbar-collapse nav ul.menu.nav.navbar-nav li.leaf a,
+	#navbar-collapse nav ul.menu.nav.navbar-nav li.leaf a:hover,
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav > li > a:hover{
+		color: #fff;
+		font-family: lato,sans-serif;
+		font-weight: 300;
+		font-size: 1.5rem;	
+	}
+	
+	body.i18n-tr div#navbar-collapse nav ul.menu.nav.navbar-nav:nth-child(1) li.last.leaf a {
+		background-image: url(/sites/all/themes/dlink/images/united-kingdom-flag-md.png); 
+		background-repeat: no-repeat;
+		background-size: 35px 35px;
+		background-position: center;
+		width: 60px;
+		height: auto;
+		color: transparent;
+		background-color: transparent;
+	}
+	
+	body.i18n-en div#navbar-collapse nav ul.menu.nav.navbar-nav:nth-child(1) li.last.leaf a {
+		background-image: url(/sites/all/themes/dlink/images/turkey_640.png); 
+		background-repeat: no-repeat;
+		background-size: 35px 35px;
+		background-position: center;
+		width: 60px;
+		height: auto;
+		color: transparent;
+		background-color: transparent;
+	}
+	#navbar.navbar-default{
+		background-color: #0083a5;
+		border-bottom: 3px solid #eaeaea;
+		position: fixed; /* Make it stick/fixed */
+		transition: top 0.3s; /* Transition effect when sliding down (and up) */
+		top: 0; /* Stay on top */	
+		margin-bottom: 1px;
+	}
+	
+
+	
+	#navbar > div.container{
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		height: 65px;
+		padding: 10px 10px 10px 20px;
+	}
+	
+	#navbar > div > div.navbar-header > a > img{
+		height: 30px;
+	}
+
+	ol.breadcrumb {
+		top: 68px;
+	}	
+	.simple-hero {
+		top: 129px;
+	}	
+	.nav > li.dropdown.open{
+	position: static;
+	}
+	
+	.nav > li.dropdown.open .dropdown-menu {
+	display: table;
+	border-radius: 0px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	right: 0;
+	}
+	
+	.dropdown-menu > li {
+	display: table-cell;  
+	line-height: 50px;
+	vertical-align: middle;
+	}
+	
+	#navbar-collapse > nav > ul > li.expanded.dropdown.open > ul > li{
+		width: 16.666666%;
+	}
+	
+	
+	#navbar-collapse > nav > ul > li.first.expanded.dropdown.open > ul > li{
+		width: 14.28%;
+	}
+	
+	
+	/*#navbar-collapse nav ul  li.expanded.dropdown.open ul{*/
+	#navbar-collapse nav ul  li.expanded.dropdown.open ul{
+		border-top-color:#eaeaea;
+		height: 82px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	#navbar-collapse > nav > ul > li.expanded.active.dropdown.open > ul > li.leaf.active > a > div.level2_title{
+		border-bottom: 3px solid #239ab8;
+		display: inline-block;
+	}
+	
+	
+	/*.arrow_box {
+		position: relative;
+		background: #88b7d5;
+		border: 4px solid #c2e1f5;
+	}*/
+	
+	#navbar-collapse nav ul li.expanded.dropdown.open div.down_pointer:before{
+		bottom: 0px;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: relative;
+		pointer-events: none;
+		-ms-transform:translate(-50%,0);
+		transform:translate(-50%,0);
+		transition:border .25s cubic-bezier(.215,.61,.355,1);
+		border-bottom-color:#eaeaea;
+		border-bottom-width: 6px;
+		border-left:6px solid transparent;
+		border-right:6px solid transparent;	
+	}
+	
+	
+	/*#navbar-collapse nav ul  li.expanded.dropdown.open:before{*/
+	/*#navbar-collapse nav ul  li.expanded.dropdown:before{*/
+	
+	/*	bottom:-3px;
+		border-bottom-color:#eaeaea;
+		border-bottom-style:solid;
+		border-bottom-width:7px;
+		border-left:15px solid transparent;
+		border-right:15px solid transparent;
+		content:"";
+		left:23%;
+		position:absolute;
+		-ms-transform:translate(-50%,0);
+		transform:translate(-50%,0);
+		transition:border .25s cubic-bezier(.215,.61,.355,1)
+	}*/
+	
+	#navbar-collapse > nav > ul > li > ul > li > a{
+		background-image: none !important;
+		height: auto !important;
+		background-color: transparent;
+	}	
+	
+	#navbar-collapse > nav > ul > li > ul > li > a:hover{
+		background-image: none !important;
+		height: auto !important;
+		background-color: transparent !important;
+	/*	color: #0083a5 !important;*/
+	}	
+	
+	/*#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open ul.dropdown-menu li.leaf a div.level2_title span, #navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open ul.dropdown-menu li.leaf a div.level2_title span:hover{
+		color: #239ab8;
+	}*/
+	
+	div.top-bar-region.col-lg-12.col-md-12.container{
+		padding-right: 0px;
+		padding-left: 0px;
+		background-color: #fff;
+		width: 100%;
+	}
+	
+	
+	#navbar-collapse > nav > ul > li > span > span.caret{
+		display: none;
+	}
+	
+	#navbar-collapse > nav > ul > li.expanded.dropdown > span{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	#navbar-collapse > nav > ul > li.expanded.dropdown{
+		cursor: pointer;	
+	}
+	
+	
+	#navbar-collapse > nav > ul > li > a{
+		background-color: #0083a5;
+		/*border-color: #0083a5;*/
+	}
+	
+	/*End of navabr*/	
+	/*Handling the carousel for the exposed forms*/
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button::before{
+		color: #fff !important;
+		border: 1px solid #fff !important;
+	}
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button::before:hover{
+		color: #fff !important;
+	}	
+	
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-prev{
+		border: 1px solid #fff !important;
+	}
+
+	
+	div#navbar-collapse{
+		width: 100%;
+		border: none;
+		padding-left: 10px;
+		padding-right: 48px;
+	}
+	#navbar-collapse nav ul  li.expanded.dropdown.open:nth-child(1) ul{
+		background-color: #eaeaea	;
+	}
+	
+	#navbar-collapse nav ul  li.expanded.dropdown.open:nth-child(2) ul{
+		background-color: #555	;
+	}
+	
+	#navbar-collapse > nav > ul > li > ul > li > a > img{
+		display: block;
+		margin: 0px auto 2px;
+		text-align: center;
+	}
+
+	#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open:nth-child(1) ul.dropdown-menu li.leaf a div.level2_title span{
+		color: #000;
+		font-family: lato,sans-serif;
+		font-size: 1.6rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+	}
+
+	#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open:nth-child(2) ul.dropdown-menu li.leaf a div.level2_title span{
+		color: #eee;
+		font-family: lato,sans-serif;
+		font-size: 1.6rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+	}
+	
+	#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open:nth-child(1) ul.dropdown-menu li.leaf a:hover div.level2_title span{
+		color: #0083a5;
+		font-family: lato,sans-serif;
+		font-size: 1.6rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+	}
+	
+	#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open:nth-child(2) ul.dropdown-menu li.leaf a:hover div.level2_title span{
+		color: #fff;
+		font-family: lato,sans-serif;
+		font-size: 1.6rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+	}
+	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown{
+		color: #fff;
+		font-family: lato,sans-serif;
+		font-weight: 300;
+		font-size: 1.5rem;	
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}	
+}
+@media screen and (max-width: 767px) {
+		
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container{
+		box-shadow: 0 0 10px rgba(0,0,0,.5);
+		border-bottom: 5px solid #eaeaea;
+	}
+	
+	.compare-bar__list {
+		display: none;
+	}	
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow{
+		right: -12px;
+	}
+	form[id^='views-exposed-form-home-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow,
+	form[id^='views-exposed-form-business-products-page'] div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow{
+		left: -12px;
+	}
+	div.view-featured #views-bootstrap-grid-1 > div.row > div> div.views-field.views-field-title > h3{
+		color: #fff;
+		font-size: 2.8rem;
+		letter-spacing: -.7px;
+		line-height: 1.14;
+		font-family: lato,sans-serif;
+		font-weight: 300;	
+	}	
+	.heading--primary{font-size:3.8rem;letter-spacing:-1.3px;line-height:1}
+	header#page-header nav#jumplinks.jumplinks{
+		display: none;
+	}	
+	/*4 boxes in home page*/
+	div.view-featured #views-bootstrap-grid-1 > div.row > div{
+		border-top-color: rgb(255, 255, 255);
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-color: rgb(255, 255, 255);
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-image-outset: 0;
+		border-image-repeat: stretch;
+		border-image-slice: 100%;
+		border-image-source: none;
+		border-image-width: 1;
+	}	
+	
+	form#search-block-form--2.form-search.content-search div div div.input-group ul#ui-id-2.ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all li.ui-menu-item-.ui-menu-item div.ui-autocomplete-fields{
+		width: 100%;
+	}
+	form#search-block-form--2.form-search.content-search div div div.input-group ul li div div.ui-autocomplete-field-uc_product_image{
+		width: 25%;
+	}
+	
+	#navbar.navbar-default{
+		background-color: #0083a5;
+	}
+
+	#mobile-search-form {
+		position: absolute;
+		top: 51px;
+		width: 100%;
+		background: #0083a5;
+		padding: 20px;
+		z-index: 20;		
+	}
+
+	.mobile-search-bar-button::before {
+		color: #fff;
+		font-size: 1.9rem;
+		content: "\e920";
+		font-family: icomoon;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 1;
+		text-transform: none;
+	}
+	
+	.mobile-search-bar-button{
+		background-color: #0083a5;
+		border: 0;
+		padding: 15px 20px;		
+	}
+
+	.mobile-search-bar-button--active::before {
+		content: "\e927";
+	}
+	
+		header#navbar.navbar.navbar-fixed-top.navbar-default div.container{
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+			
+	
+	/*Nav bar for responsive*/
+	.navbar-default .navbar-toggle{
+		border: none !important;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff !important;
+	}
+	
+	.navbar-toggle .icon-bar {
+		height: 3px !important;
+		margin-left: 20px;
+	}
+	
+	div.top-bar-region.container {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/*div#navbar-collapse nav ul.menu.nav.navbar-nav*/
+	/*div#navbar-collapse nav ul.menu.nav.navbar-nav*/
+	div#navbar-collapse nav ul.menu.nav.navbar-nav{
+		/*display: table;
+		position: absolute;*/
+		height: 100vh;
+		width: 100%;
+		margin: 0;
+		overflow: auto;
+		padding: 10px 20px 120px;
+		z-index: 50;
+		background: #0083a5;
+		box-shadow: 5px 0 10px 0 rgba(38, 50, 56, 0.3) inset;
+	}
+	#navbar-collapse nav ul  li.expanded.dropdown.open ul{
+		background-color: transparent	;
+	}
+	#navbar-collapse > nav > ul > li > ul > li > a > img{
+		display: none;
+		margin: 0px auto 2px;
+		text-align: center;
+	}
+	#navbar-collapse > nav > ul > li > ul{
+		padding-left: 20px;
+	}
+	#navbar-collapse > nav > ul > li > ul > li > a {
+		background-image: none;
+	}
+
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div#navbar-collapse nav ul.menu.nav.navbar-nav li.open ul.dropdown-menu li.active a, 
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div#navbar-collapse nav ul.menu.nav.navbar-nav li.open ul.dropdown-menu li.active a:hover, 
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div#navbar-collapse nav ul.menu.nav.navbar-nav li.open ul.dropdown-menu li.active a:focu{
+		background-color: transparent !important;
+	}	
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    background-color: transparent !important;
+}	
+	nav div.region.region-navigation section#block-search-form.block.block-search.clearfix{
+		display: none;
+	}
+	div#mobile-search-form form#search-block-form--2.form-search.content-search div div div.input-group {
+		padding-left: 5%;
+		padding-right: 0%;
+	}
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header{
+		width: 100%;
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header a.logo.navbar-btn.pull-left{
+		flex-grow: 1;
+		margin: auto;
+	}	
+	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header a.logo.navbar-btn.pull-left img{
+		margin: 0 auto;
+		display: block;
+		height: 20px;
+	}
+	
+	div#navbar-collapse{
+		z-index: 10000;
+		border: none;	
+	}
+	
+	/*#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open ul.dropdown-menu li.leaf a div.level2_title span*/
+	.navbar-nav div.level2_title span
+	{
+		color: #fff;
+		font-family: lato,sans-serif;
+		font-size: 1.4rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+		background-color: transparent	;
+	}
+	
+	/*#navbar-collapse nav ul.menu.nav.navbar-nav li.expanded.dropdown.open ul.dropdown-menu li.leaf a:hover div.level2_title span*/
+	.navbar-nav li:nth-child(1) ul li  a:hover div.level2_title span{
+		color: #0083a5;
+		font-family: lato,sans-serif;
+		font-size: 1.4rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+		background-color: transparent	;
+	}
+
+	.navbar-nav li:nth-child(2) ul li  a:hover div.level2_title span{
+		color: #fff;
+		font-family: lato,sans-serif;
+		font-size: 1.4rem;
+		font-weight: 300;
+		padding: 0 0;
+		text-decoration: none;	
+		background-color: transparent	;
+	}
+		
+	
+	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div#navbar-collapse{
+		box-shadow: none;
+	}	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle:focus,
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle:hover,
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle{
+		background-color: transparent	;
+		width: 70px;
+	}
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button[aria-expanded="true"].navbar-toggle span.icon-close,
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button[aria-expanded="false"].navbar-toggle span.icon-bar{
+		display:block;
+	}
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button[aria-expanded="false"].navbar-toggle span.icon-close,
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle span.icon-close,
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button[aria-expanded="true"].navbar-toggle span.icon-bar{
+		display:none;
+	}	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle span.icon-close{
+		padding: 8px 20px;
+	}
+		
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle span.icon-close::after{
+		background: #fff;
+		border-radius: 2px;
+		content: "";
+		cursor: pointer;
+		display: block;
+		height: 4px;
+		position: absolute;
+		width: 22px;
+		transition: all .25s ease;
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);	
+	}
+	
+	header#navbar.navbar.navbar-fixed-top.navbar-default div.container div.navbar-header button.navbar-toggle span.icon-close::before{
+		background: #fff;
+		border-radius: 2px;
+		content: "";
+		cursor: pointer;
+		display: block;
+		height: 4px;
+		position: absolute;
+		width: 22px;
+		transition: all .25s ease;
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+	
+	header#navbar div div#navbar-collapse nav > ul > li,
+	header#navbar div div#navbar-collapse nav  > ul > li > a{
+		color: #fff;
+		font-family: lato,sans-serif;
+		font-weight: 400;
+		font-size: 1.35rem;	
+	}
+	header#navbar div div#navbar-collapse nav > ul > li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	header#navbar div div#navbar-collapse nav > ul > li:nth-child(1),
+	header#navbar div div#navbar-collapse nav > ul > li:nth-child(2){
+		padding-top: 14px;
+		padding-bottom: 14px;
+		cursor: pointer;
+	}	
+	header#navbar div div#navbar-collapse nav ul li a{
+			padding: 10px 0px;
+	}
+	body.i18n-en div#navbar-collapse > nav > ul.menu.nav.navbar-nav > li.last.leaf > a{
+		background-image: url(/sites/all/themes/dlink/images/turkey_640.png); 
+		background-repeat: no-repeat;
+		background-size: 35px 35px;
+		background-position: left;
+		color: transparent !important;
+	}
+	body.i18n-tr div#navbar-collapse > nav > ul.menu.nav.navbar-nav > li.last.leaf > a{
+		background-image: url(/sites/all/themes/dlink/images/united-kingdom-flag-md.png);
+		background-repeat: no-repeat;
+		background-size: 35px 35px;
+		background-position: left;
+		color: transparent !important;
+	}
+	header#navbar div div#navbar-collapse nav  > ul > li > ul > li{
+		border-bottom: 1px solid #006f8c;
+	}
+	header#navbar div div#navbar-collapse nav  > ul > li > ul > li:last-child{
+		border-bottom: 0;
+	}
+	ol.breadcrumb {
+		top: 52px;
+	}
+	.simple-hero {
+		top: 113px;
+	}
+	body > div.main-container{
+		top: 113px;
+	}	
+}
+
+
+
+@media all and (max-width: 900px){.partner-portal .form-wrapper .sub-heading{color:#0a0e44;margin-top:0}}
+/*End of Formatting the sliders*/
+
+@media screen and (min-width: 1191px) {
+	/*div.view.view-home-products div.view-content div#views-bootstrap-grid-1.views-bootstrap-grid-plugin-style div.row div{
+		border : 1px solid #eaeaea;
+	}*/
+	ul.jumplinks__list {
+		padding: 10px 20px;
+	}	
+	#navbar div#mobile_search{
+		display: none;
+	}
+	div.view-home-products,
+	div.view-business-products{
+		margin-left: 75px;
+		margin-right: 75px;
+	}	
+	/*Handling the carousel for the exposed forms*/
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button::before,
+	form#views-exposed-form-home-products-page-2 div div.views-exposed-form div#filter_form_collapsible button::before,
+	form#views-exposed-form-home-products-page-3 div div.views-exposed-form div#filter_form_collapsible button::before,
+	form#views-exposed-form-home-products-page-6 div div.views-exposed-form div#filter_form_collapsible button::before,
+	form#views-exposed-form-business-products-page-2 div div.views-exposed-form div#filter_form_collapsible button::before{
+		color: #fff !important;
+		border: 1px solid #fff !important;
+	}
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button::before:hover,
+	form#views-exposed-form-home-products-page-2 div div.views-exposed-form div#filter_form_collapsible button::before:hover,
+	form#views-exposed-form-home-products-page-3 div div.views-exposed-form div#filter_form_collapsible button::before:hover,
+	form#views-exposed-form-home-products-page-6 div div.views-exposed-form div#filter_form_collapsible button::before:hover,
+	form#views-exposed-form-business-products-page-2 div div.views-exposed-form div#filter_form_collapsible button::before:hover{
+		color: #fff !important;
+	}	
+	
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-prev,
+	form#views-exposed-form-home-products-page-2 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-home-products-page-2 div div.views-exposed-form div#filter_form_collapsible button.slick-prev,
+	form#views-exposed-form-home-products-page-3 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-home-products-page-3 div div.views-exposed-form div#filter_form_collapsible button.slick-prev,
+	form#views-exposed-form-home-products-page-6 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-home-products-page-6 div div.views-exposed-form div#filter_form_collapsible button.slick-prev,
+	form#views-exposed-form-business-products-page-2 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-business-products-page-2 div div.views-exposed-form div#filter_form_collapsible button.slick-prev
+	{
+		border: 1px solid #fff !important;
+	}	
+}
+@media screen and (min-width: 768px) and (max-width: 1190px){
+	ul.jumplinks__list {
+		padding: 10px 0px;
+	}	
+	header#page-header nav#jumplinks.jumplinks {
+		border: 0;
+		float: right;
+		display: block;
+		transform: translate(0,0px);
+		z-index: 500;
+		margin-bottom: 5px;
+		background-color: #fff;
+		padding: 10px 0px;
+		position: absolute;
+	}
+	#mobile-search-form {
+		position: absolute;
+		top: 51px;
+		left: 0;
+		width: 100%;
+		background: #0083a5;
+		padding: 20px;		
+	}
+	
+	.mobile-search-bar-button::before {
+		color: #fff;
+		font-size: 1.9rem;
+		content: "\e920";
+		font-family: icomoon;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 1;
+		text-transform: none;
+	}
+	
+	.mobile-search-bar-button{
+		background-color: #0083a5;
+		border: 0;
+		padding: 15px 20px;
+		right: 6px;
+		position: absolute;
+	}
+
+	.mobile-search-bar-button--active::before {
+		content: "\e927";
+	}
+	
+	nav div.region.region-navigation section#block-search-form.block.block-search.clearfix{
+		display: none;
+	}		
+}
+@media screen and (max-width: 1190px) {
+
+	/*div.view.view-home-products div.view-content div#views-bootstrap-grid-1.views-bootstrap-grid-plugin-style div.row > div:nth-child(1),
+	div.view.view-home-products div.view-content div#views-bootstrap-grid-1.views-bootstrap-grid-plugin-style div.row > div:nth-child(2){
+		border-top : 1px solid #eaeaea;
+	}
+
+	div.view.view-home-products div.view-content div#views-bootstrap-grid-1.views-bootstrap-grid-plugin-style div.row{
+		border : 1px solid #eaeaea;
+	}
+	
+	
+	div.view-home-products #views-bootstrap-grid-1 > div.row{
+		display: table;
+	}*/
+	
+	div.view-home-products,
+	div.view-business-products{
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
+	/*Handling the carousel for the exposed forms*/
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button::before{
+		color: #cdcccb !important;
+		border: 1px solid #fff !important;		
+	}
+
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-prev.slick-arrow:hover::before,
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-next.slick-arrow:hover::before{
+		color: #0083a5 !important;
+	}
+
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-prev:hover,
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-next:hover	{
+		border: 1px solid #0083a5 !important;
+	}
+	
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-next,
+	form#views-exposed-form-home-products-page-1 div div.views-exposed-form div#filter_form_collapsible button.slick-prev{
+		border: 1px solid #cdcccb !important;
+	}	
+		
+}
+/*Formatting the hero images*/
+.callout {
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: inherit;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    zoom: 1;
+}
+
+article.node-hero-media .heading--primary,article.node-hero-media  .rte h1 {
+    font-size: 6.4rem;
+    letter-spacing: -1.3px;
+    line-height: 1;
+}
+article.node-hero-media .heading--primary,article.node-hero-media  .rte h1 {
+    font-family: lato,sans-serif;
+    font-weight: 300;
+}
+
+
+section#Bestsellers.section.section--mid.section--no-padding{
+    background-color: #f3f3f3;
+}
+
+.section-title--align-center {
+    text-align: center;
+}
+.section-title {
+    padding: 20px;
+}
+
+article.node-hero-media a.button--cta, article.node-hero-media .button--cta {
+    background-color: #f57f23;
+    color: #fff;
+}
+
+article.node-hero-media a.button--secondary-alternate, article.node-hero-media .button--secondary-alternate {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+article.node-hero-media a.button--cta.hover,
+article.node-hero-media a.button--cta:hover, 
+article.node-hero-media .button--cta.hover, 
+article.node-hero-media .button--cta:hover {
+    background-color: #ee700e;
+}
+
+article.node-hero-media a.button--secondary-alternate:hover, article.node-hero-media .button--secondary-alternate:hover {
+    background-color: #fff;
+	color: #0083a5;
+}
+
+article.node-hero-media a.button--secondary, 
+article.node-hero-media .button--secondary {
+    background-color: transparent;
+    border: 1px solid #0083a5;
+    color: #0083a5;
+}
+
+article.node-hero-media a.button--secondary.hover, 
+article.node-hero-media a.button--secondary:hover, 
+article.node-hero-media .button--secondary.hover, 
+article.node-hero-media .button--secondary:hover {
+    background-color: #0083a5;
+    color: #fff;
+}
+
+div.module div.rte a.button.button--cta::after,
+div.module div.callout div.callout__button-container a.button.button--cta::after,
+div.module div.rte a.button.button--secondary::after,
+div.module div.rte a.button--secondary-alternate::after{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin: 0 -5px 0 15px;
+    transition: background-color .25s cubic-bezier(.215,.61,.355,1);
+	content: "\e908";
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: icomoon;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+}
+
+div.module div.rte a.button.button--secondary{
+	background-color: transparent;
+	border: 1px solid #0083a5;
+	color: #0083a5;
+}
+
+div.module div.rte a.button.button--secondary::after,
+div.module div.rte a.button--secondary-alternate::after{
+	border: 1px solid #0083a5;
+}
+
+div.module div.rte a.button.button--alternate::after{
+	border: 1px solid #fff;
+}
+
+div.module div.rte a.button.button--secondary:hover::after{
+	border: 1px solid #fff;
+}
+
+div.module div.rte a.button.button--secondary:hover{
+	background-color: #0083a5;
+	color: #fff;
+}
+
+div.module div.rte a.button.button--alternate:hover::after{
+	border: 1px solid #0083a5 ;
+}
+
+div.module div.rte a.button.button--alternate:hover{
+	background-color: #0083a5;
+	color: #fff;
+}
+
+div.module div.rte .section--primary a.button--secondary-alternate::after, 
+div.module div.rte .section--primary .button--secondary-alternate::after {
+	border: 1px solid #fff;
+}
+div.module div.rte a.button.button--primary:hover::after{
+	border: 1px solid #fff;
+}
+div.module div.rte a.button.button--primary:hover{
+	background-color: #0083a5;
+	color: #fff;
+}
+
+
+div.module div.rte a.button.button--cta,
+div.module div.rte a.button.button--secondary,
+div.module div.rte a.button--secondary-alternate,
+div.module div.callout div.callout__button-container a.button.button--cta{
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 100px;
+	cursor: pointer;
+	display: inline-block;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	font-size: 1.4rem;
+	letter-spacing: -.3px;
+	line-height: 1.5;
+	font-size: 1.5rem;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .25s cubic-bezier(.215,.61,.355,1);    
+	margin: 20px 0;	
+}
+
+body.node-type-hero-media div.container > div.grid > div{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.module div.rte img.image--ignore-attribute{
+    display: block;
+}
+div.module div.rte img {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;	
+}
+div.module div.rte img.image--ignore-attribute {
+    height: auto !important;
+    width: auto !important;
+}
+
+.node-type-hero-media div.main-container.col-lg-12.col-md-12.container div.row section.col-sm-12{
+	padding-right: 0;
+	padding-left: 0;
+}
+.hero {
+    height: auto;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.hero__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.hero__overlay {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+div.hero.hero--large div.hero__container.hero__container--large div.hero__content.hero__content--align-left{
+	z-index: 4;
+	margin: auto;
+	max-width: 1200px;	
+}
+
+div.module div.rte div.richtext p{
+	font-size: 1.5rem;
+	letter-spacing: -.3px;
+	line-height: 1.73;	
+}
+
+
+.node-type-hero-media div.banner{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+
+.node-type-hero-media div.banner div.banner__background-image-container {
+	height: 100%;
+	width: 100%;
+}
+
+.node-type-hero-media div.banner div.banner__background-image-container div.banner__background-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+article.node.node-hero-media  div.container div.grid div.module div.rte h3 {
+    font-family: lato,sans-serif;
+    font-weight: 300;
+}
+
+article.node.node-hero-media  div.container div.grid div.module div.rte p {
+    font-size: 1.5rem;
+    letter-spacing: -.3px;
+    line-height: 1.73;
+	font-family: verdana,Geneva,sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.heading--tertiary, .rte h3,div.module div.callout div.callout__content-wrapper div.callout__content-container div.callout__content h3  {
+    font-family: lato,sans-serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    line-height: 1.23;
+}
+
+
+.callout__image-container {
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    max-height: 200px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.callout__content-wrapper {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.callout__content-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.callout__content::after {
+    clear: both;
+}
+.callout__content::after, .callout__content::before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.body-text{
+    font-family: verdana,Geneva,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.71;
+}
+.callout__button-container {
+    text-align: center;
+    width: 100%;
+}
+.callout__footnotes {
+    color: #535a5c;
+    width: 100%;
+	font-size: 80%;
+}
+
+article.node-hero-media div.hero.hero--large div.rte img.height-auto{
+	max-width: 100%;
+	height: auto;
+}
+	article.node-hero-media div.container div.grid div.col-lg-6.col-md-6.col-sm-6.col-xs-12 {
+		margin: auto;
+	}
+@media screen and (min-width: 769px) {
+	/*body > div.main-container.col-lg-12.col-md-12.container{
+		padding-top: 130px;
+	}*/
+	.callout__content {
+		padding: 20px 0;
+	}
+	
+	
+	
+	.body-text{
+		font-size: 1.5rem;
+		letter-spacing: -.3px;
+		line-height: 1.73;
+	}
+	
+	.heading--tertiary, .rte h3,div.module div.callout div.callout__content-wrapper div.callout__content-container div.callout__content h3 {
+		font-size: 3.4rem;
+		letter-spacing: -.7px;
+		line-height: 1.44;
+	}
+	
+	article.node.node-hero-media  div.container div.grid div.module div.rte p {
+		font-size: 1.5rem;
+		letter-spacing: -.3px;
+		line-height: 1.73;
+	}
+
+	
+	article.node.node-hero-media  div.container div.grid div.module div.rte h3 {
+		font-size: 3.4rem;
+		letter-spacing: -.7px;
+		line-height: 1.44;
+	}
+	
+	.node-type-hero-media div.banner div.banner__background-image-container div.banner__background-image.skrollable {
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	.node-type-hero-media div.banner div.banner__background-image-container {
+		overflow: hidden;
+		position: absolute;
+	}
+	
+	.node-type-hero-media div.banner{
+		height: 445px;
+		margin: -20px 0 0 0;
+	}
+	
+	.hero--large {
+		max-height: 600px;
+	}	
+	.hero {
+		margin: 0;
+		max-height: 600px;
+	}
+	.hero__container--large {
+		height: 550px;
+	}
+
+	div.hero.hero--large div.hero__container.hero__container--large div.hero__content.hero__content--align-left {
+		left: 0;
+		padding: 0 20px;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translate(0%,-50%);
+		transform: translate(0%,-50%);
+		width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 769px) {
+
+	
+	.callout__content {
+		padding: 20px 0;
+	}
+	
+	
+	
+	.body-text{
+		font-size: 1.5rem;
+		letter-spacing: -.3px;
+		line-height: 1.73;
+	}
+	
+	.heading--tertiary, .rte h3,div.module div.callout div.callout__content-wrapper div.callout__content-container div.callout__content h3 {
+		font-size: 3.4rem;
+		letter-spacing: -.7px;
+		line-height: 1.44;
+	}
+	
+	article.node.node-hero-media  div.container div.grid div.module div.rte p {
+		font-size: 1.5rem;
+		letter-spacing: -.3px;
+		line-height: 1.73;
+	}
+
+	
+	article.node.node-hero-media  div.container div.grid div.module div.rte h3 {
+		font-size: 3.4rem;
+		letter-spacing: -.7px;
+		line-height: 1.44;
+	}
+	
+	.node-type-hero-media div.banner div.banner__background-image-container div.banner__background-image.skrollable {
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	.node-type-hero-media div.banner div.banner__background-image-container {
+		overflow: hidden;
+		position: absolute;
+	}
+	
+	.node-type-hero-media div.banner{
+		height: 445px;
+		margin: -20px 0 0 0;
+	}
+	
+	.hero--large {
+		max-height: 600px;
+	}	
+	.hero {
+		margin: 0;
+		max-height: 600px;
+	}
+	.hero__container--large {
+		height: 550px;
+	}
+
+	div.hero.hero--large div.hero__container.hero__container--large div.hero__content.hero__content--align-left {
+		left: 0;
+		padding: 0 20px;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translate(0%,-50%);
+		transform: translate(0%,-50%);
+		width: 50%;
+	}
+}
+

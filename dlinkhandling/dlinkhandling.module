@@ -1,0 +1,36 @@
+<?php
+/**
+* Implements hook_menu().
+*/
+
+//Contains domain names, IP addresses and role of the node either main or kiosk.
+
+function dlinkhandling_menu() {
+	$items = array();
+	return $items;
+}
+
+
+function dlinkhandling_form_alter (&$form, &$form_state, $form_id) {
+	//watchdog ('dlink','dlinkhandling_form_alter:'.$form_id);	
+  if ($form_id == 'views_exposed_form99999') {
+		
+		if (isset($form['field_categories_tid']["#options"])){
+			foreach ($form['field_categories_tid']["#options"] as $key => $value){
+				foreach ($value->option as $key_opt => $value_opt){
+					$value->option[$key_opt] = '<span role="checkbox" aria-checked="False"></span>'.$value_opt;
+					//$value_opt
+				}
+			}			
+		}
+
+		ob_start();
+		var_dump($form['field_categories_tid']["#options"]);
+		$dumpy = ob_get_clean();
+		watchdog ('dlink','dlinkhandling_form_alter:'.$dumpy);	
+
+
+		
+  } 
+}
+
